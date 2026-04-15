@@ -1,5 +1,9 @@
 ﻿# 💳 Sistema de Processamento de Pagamentos
 
+## Integrantes
+
+### Mohamed Afif Smaili RM 554445
+
 ## 📌 Descrição
 Aplicação console desenvolvida em C# com o objetivo de simular um sistema de pagamentos, permitindo ao usuário escolher entre pagamento com cartão ou boleto.
 
@@ -20,20 +24,20 @@ O sistema coleta os dados necessários, processa a operação e exibe um resumo 
 
 ## 🧱 Estrutura do Projeto
 
-AppPagamento  
+CP02  
 │  
 ├── images  
 │   ├── menu.png  
-│   ├── pagamento-cartao.png  
-│   ├── pagamento-boleto.png  
-│   └── erro-validacao.png  
+│   ├── cartao.png  
+│   ├── boleto.png  
+│   └── erro.png  
 │  
-├── Model  
+├── model  
 │   ├── Pagamento.cs  
 │   ├── PagamentoCartao.cs  
 │   └── PagamentoBoleto.cs  
 │  
-├── Utils  
+├── utils  
 │   └── Menu.cs  
 │  
 ├── Program.cs  
@@ -62,7 +66,7 @@ AppPagamento
 
 ### 🔹 Menu Principal
 
-![Menu Principal](images/menu.png)
+![Menu Principal](CP02/images/menu.png)
 
 ---
 
@@ -76,7 +80,7 @@ AppPagamento
 Processando pagamento de R$ 150,50 via Cartão (Número: 1234-5678-9012-3456) na data XX/XX/XXXX.
 
 📸 Print:  
-![Pagamento Cartão](cp02/images/cartao.png)
+![Pagamento Cartão](CP02/images/cartao.png)
 
 ---
 
@@ -90,7 +94,7 @@ Processando pagamento de R$ 150,50 via Cartão (Número: 1234-5678-9012-3456) na
 Processando pagamento de R$ 200,00 via Boleto (Cod Barra: 1111111122222223333333344444444) na data XX/XX/XXXX.
 
 📸 Print:  
-![Pagamento Boleto](cp02/images/boleto.png)
+![Pagamento Boleto](CP02/images/boleto.png)
 
 ---
 
@@ -99,7 +103,7 @@ Processando pagamento de R$ 200,00 via Boleto (Cod Barra: 1111111122222223333333
 **Exemplo: valor inválido**
 
 📸 Print:  
-![Erro de Validação](cp02/images/erro.png)
+![Erro de Validação](CP02/images/erro.png)
 
 ---
 
