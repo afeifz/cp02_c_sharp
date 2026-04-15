@@ -76,7 +76,7 @@ AppPagamento
 Processando pagamento de R$ 150,50 via Cartão (Número: 1234-5678-9012-3456) na data XX/XX/XXXX.
 
 📸 Print:  
-![Pagamento Cartão](images/pagamento-cartao.png)
+![Pagamento Cartão](cp02/images/cartao.png)
 
 ---
 
@@ -90,7 +90,7 @@ Processando pagamento de R$ 150,50 via Cartão (Número: 1234-5678-9012-3456) na
 Processando pagamento de R$ 200,00 via Boleto (Cod Barra: 1111111122222223333333344444444) na data XX/XX/XXXX.
 
 📸 Print:  
-![Pagamento Boleto](images/pagamento-boleto.png)
+![Pagamento Boleto](cp02/images/boleto.png)
 
 ---
 
@@ -99,7 +99,7 @@ Processando pagamento de R$ 200,00 via Boleto (Cod Barra: 1111111122222223333333
 **Exemplo: valor inválido**
 
 📸 Print:  
-![Erro de Validação](images/erro-validacao.png)
+![Erro de Validação](cp02/images/erro.png)
 
 ---
 
