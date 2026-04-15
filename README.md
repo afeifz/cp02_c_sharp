@@ -41,7 +41,7 @@ CP02
 │   └── Menu.cs  
 │  
 ├── Program.cs  
-└── AppPagamento.csproj  
+└── CP02.csproj  
 
 ---
 
