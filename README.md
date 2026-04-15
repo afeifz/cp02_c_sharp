@@ -1,7 +1,4 @@
-﻿---
-
-```md
-# 💳 Sistema de Processamento de Pagamentos
+﻿# 💳 Sistema de Processamento de Pagamentos
 
 ## 📌 Descrição
 Aplicação console desenvolvida em C# com o objetivo de simular um sistema de pagamentos, permitindo ao usuário escolher entre pagamento com cartão ou boleto.
@@ -23,30 +20,32 @@ O sistema coleta os dados necessários, processa a operação e exibe um resumo 
 
 ## 🧱 Estrutura do Projeto
 
-```
-
-AppPagamento
-│
-├── Model
-│   ├── Pagamento.cs
-│   ├── PagamentoCartao.cs
-│   └── PagamentoBoleto.cs
-│
-├── Utils
-│   └── Menu.cs
-│
-├── Program.cs
-└── AppPagamento.csproj
-
-```
+AppPagamento  
+│  
+├── images  
+│   ├── menu.png  
+│   ├── pagamento-cartao.png  
+│   ├── pagamento-boleto.png  
+│   └── erro-validacao.png  
+│  
+├── Model  
+│   ├── Pagamento.cs  
+│   ├── PagamentoCartao.cs  
+│   └── PagamentoBoleto.cs  
+│  
+├── Utils  
+│   └── Menu.cs  
+│  
+├── Program.cs  
+└── AppPagamento.csproj  
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- C#
-- .NET 8
-- Aplicação Console
+- C#  
+- .NET 8  
+- Aplicação Console  
 
 ---
 
@@ -62,6 +61,7 @@ AppPagamento
 ## 📷 Evidências de Testes
 
 ### 🔹 Menu Principal
+
 ![Menu Principal](images/menu.png)
 
 ---
@@ -73,14 +73,10 @@ AppPagamento
 - Número do cartão: 1234-5678-9012-3456  
 
 **Saída esperada:**
-```
-
 Processando pagamento de R$ 150,50 via Cartão (Número: 1234-5678-9012-3456) na data XX/XX/XXXX.
 
-```
-
 📸 Print:  
-![Menu Principal](images/cartao.png)
+![Pagamento Cartão](images/pagamento-cartao.png)
 
 ---
 
@@ -91,14 +87,10 @@ Processando pagamento de R$ 150,50 via Cartão (Número: 1234-5678-9012-3456) na
 - Código de barras: 1111111122222223333333344444444  
 
 **Saída esperada:**
-```
-
 Processando pagamento de R$ 200,00 via Boleto (Cod Barra: 1111111122222223333333344444444) na data XX/XX/XXXX.
 
-```
-
 📸 Print:  
-![Menu Principal](images/boleto.png)
+![Pagamento Boleto](images/pagamento-boleto.png)
 
 ---
 
@@ -107,7 +99,7 @@ Processando pagamento de R$ 200,00 via Boleto (Cod Barra: 1111111122222223333333
 **Exemplo: valor inválido**
 
 📸 Print:  
-![Menu Principal](images/erro.png)
+![Erro de Validação](images/erro-validacao.png)
 
 ---
 
@@ -125,6 +117,3 @@ Processando pagamento de R$ 200,00 via Boleto (Cod Barra: 1111111122222223333333
 ## 👨‍💻 Autor
 
 Projeto desenvolvido para fins acadêmicos.
-```
-
-
