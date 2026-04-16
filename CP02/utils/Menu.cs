@@ -1,4 +1,4 @@
-﻿namespace AppPagamento.Utils
+﻿namespace CP02.Utils
 {
     public static class Menu
     {

@@ -1,4 +1,4 @@
-﻿namespace AppPagamento.Model
+﻿namespace CP02.Model
 {
     public class PagamentoBoleto : Pagamento
     {

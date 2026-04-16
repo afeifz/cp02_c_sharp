@@ -1,5 +1,5 @@
-﻿using AppPagamento.Model;
-using AppPagamento.Utils;
+﻿using CP02.Model;
+using CP02.Utils;
 
 string resposta;
 
